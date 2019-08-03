@@ -1,0 +1,5 @@
+# Beer-Brewing-Arduino-Project
+
+This is an Arduino sketch that controls the temperature of a beer fermenter. I connected a temperature sensor, LCD display and relay driver to the Arduino. An electric blanket was wrapped around the fermenter, which the Arduino then controlled. 
+I have allowed a couple of degrees of hysteresis so that the controller does not start to heat immediately after dropping below setpoint. 
+This project could have been improved with the addition of a couple of buttons on the controller to control the temperature setpoint. 
